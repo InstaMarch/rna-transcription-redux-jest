@@ -4,7 +4,7 @@
   "description": "A simple TDD example of RNA transcription.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage" 
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/InstaMarch/rna-transcription-redux-jest#readme",
   "devDependencies": {
     "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "redux": "^3.7.2"
   }
 }
