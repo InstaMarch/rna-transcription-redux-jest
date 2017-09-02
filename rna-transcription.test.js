@@ -24,3 +24,9 @@ test("transcribes thymine to adenine", function () {
     store.dispatch(rnaToDna("T"));
     expect(store.getState().strand).toEqual("A");
 });
+
+test("transcribes all dna nucleotides to their rna compliments", function () {
+    "use strict";
+    store.dispatch(rnaToDna("ACGTGGTCTTAA"));
+    expect(store.getState().strand).toEqual("UGCACCAGAAUU");
+});
