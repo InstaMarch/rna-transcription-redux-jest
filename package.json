@@ -1,0 +1,22 @@
+{
+  "name": "rna-transcription-redux-jest",
+  "version": "1.0.0",
+  "description": "A simple TDD example of RNA transcription.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InstaMarch/rna-transcription-redux-jest.git"
+  },
+  "author": "Ben Pardo, Zachary Overhulser, Mike Ricos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InstaMarch/rna-transcription-redux-jest/issues"
+  },
+  "homepage": "https://github.com/InstaMarch/rna-transcription-redux-jest#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
