@@ -1,3 +1,3 @@
-module.exports.transcribeDnaToRna = function (state = {strand: "Q"}, action) {
+module.exports.transcribeDnaToRna = function (state = {strand: "G"}, action) {
     return state;
 };
