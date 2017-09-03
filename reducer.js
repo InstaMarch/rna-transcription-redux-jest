@@ -6,10 +6,5 @@ module.exports.transcribeRnaToDna = function (state = {strand: "G"}, action) {
             strand: "C"
         } 
     }
-    if (rna === "A") {
-        return {
-            strand: "U"
-        }
-    }
     return state;
 } 
