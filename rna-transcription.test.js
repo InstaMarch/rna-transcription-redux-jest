@@ -6,9 +6,5 @@ test("transcribes cytosine to guanine", function () {
     expect(store.getState().strand).toEqual("G");
 });
 
-test("transcribes guanine to cytosine", function () {
-    store.dispatch(dnaToRna("G"));
-    expect(store.getState().strand).toEqual("C");
-});
 
 
