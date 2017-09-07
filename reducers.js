@@ -5,5 +5,11 @@ module.exports.transcribeDnaToRnaReducer = (state = {strand: "G"}, action) => {
 	}
     }
 
+    if (action.dna === "T") {
+        return {
+	    strand: "A"
+	}
+    }
+
     return state;
 }; 
