@@ -10,3 +10,8 @@ test("transcribes adenine to uracil", function () {
     store.dispatch(transcribeDnaToRna("A"));
     expect(store.getState().strand).toEqual("U");
 });
+
+test("transcribes thymine to adenine", function () {
+    store.dispatch(transcribeDnaToRna("T"));
+    expect(store.getState().strand).toEqual("A");
+});
