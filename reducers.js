@@ -1,4 +1,4 @@
-const transcribeDnaToRnaReducer = (state = {strand: "Q"}, action) => {
+const transcribeDnaToRnaReducer = (state = {strand: "G"}, action) => {
         
         return state;
     }
