@@ -11,3 +11,7 @@ test("Transcribes adenine to uracil", function() {
   expect(store.getState().strand).toEqual("U");
 });
 
+test("Transcribes guanine to cytosine", function() {
+	store.dispatch(transcribeDnaToRna("G"));
+	expect(store.getState().strand).toEqual("C");
+})
