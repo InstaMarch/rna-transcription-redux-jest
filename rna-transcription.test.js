@@ -20,3 +20,8 @@ test("Transcribes thymine to adenine", function () {
     store.dispatch(transcribeDnaToRna("T"));
     expect(store.getState().strand).toEqual("A");
 });
+
+test("Transcribes cytosine to guanine again", function() {
+	store.dispatch(transcribeDnaToRna("C"));
+	expect(store.getState().strand).toEqual("G");
+})
