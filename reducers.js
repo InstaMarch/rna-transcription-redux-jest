@@ -16,6 +16,11 @@ const transcribeDnaToRnaReducer = function(state = { strand: "G" }, action) {
     		strand: "A"
     	}
     }
+    if (action.dna === "C") {
+        return {
+	    strand: "G"
+	}
+    }
 
     return state;
 };
